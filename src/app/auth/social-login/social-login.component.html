@@ -8,30 +8,11 @@
     </div>
   </div>
 
-  <div class="mt-6 grid grid-cols-3 gap-3">
+  <div class="social-login-grid">
     <ng-template #socialLogin let-icon="icon">
-      <div>
-        <a
-          href="#"
-          class="
-            w-full
-            inline-flex
-            justify-center
-            py-2
-            px-4
-            border border-gray-300
-            rounded-md
-            shadow-sm
-            bg-white
-            text-sm
-            font-medium
-            text-gray-500
-            hover:bg-gray-50
-          "
-        >
-          <i class="{{ icon }} text-lg"></i>
-        </a>
-      </div>
+      <a href="#" class="social-login-link">
+        <i class="{{ icon }} text-lg"></i>
+      </a>
     </ng-template>
 
     <ng-container

@@ -1,33 +1,9 @@
 <app-auth-form>
-  <h2
-    id="auth-header"
-    class="mt-6 text-center text-3xl font-extrabold text-gray-900"
-  >
-    Sign in to your account
-  </h2>
-  <p class="mt-2 text-center text-sm text-gray-600">
+  <h2 id="auth-header" class="auth-header">Sign in to your account</h2>
+  <p class="auth-register-link">
     Dont have an account?
-    <a
-      routerLink="/auth/register"
-      class="font-medium text-indigo-600 hover:text-indigo-500"
-    >
-      Sign up
-    </a>
+    <a routerLink="/auth/register" class="sign-up-link"> Sign up </a>
   </p>
 
-  <button
-    type="submit"
-    class="
-      w-full
-      py-2
-      px-4
-      border border-transparent
-      rounded-md
-      text-white
-      bg-indigo-600
-      hover:bg-indigo-700
-    "
-  >
-    Sign in
-  </button>
+  <button type="submit" class="sign-in-button">Sign in</button>
 </app-auth-form>
